@@ -332,5 +332,12 @@
       <parent link="${prefix}flange"/>
       <child link="${prefix}tool0"/>
     </joint>
+    
+    <group name="${prefix}arm_gripper">
+        <group name="${prefix}${name}_manipulator" />
+        <joint name="${prefix}gripper_grasp_point_joint"/>
+        <link name="${prefix}gripper_grasp_point"/>
+    </group>
+
   </xacro:macro>
 </robot>
