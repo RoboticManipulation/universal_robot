@@ -172,14 +172,26 @@ endeffector:
     - SPARStwo
 arm_gripper:
   planner_configs:
-    - SBLkConfigDefault
-    - ESTkConfigDefault
-    - LBKPIECEkConfigDefault
-    - BKPIECEkConfigDefault
-    - KPIECEkConfigDefault
-    - RRTkConfigDefault
-    - RRTConnectkConfigDefault
-    - RRTstarkConfigDefault
-    - TRRTkConfigDefault
-    - PRMkConfigDefault
-    - PRMstarkConfigDefault
+    - SBL
+    - EST
+    - LBKPIECE
+    - BKPIECE
+    - KPIECE
+    - RRT
+    - RRTConnect
+    - RRTstar
+    - TRRT
+    - PRM
+    - PRMstar
+    - FMT
+    - BFMT
+    - PDST
+    - STRIDE
+    - BiTRRT
+    - LBTRRT
+    - BiEST
+    - ProjEST
+    - LazyPRM
+    - LazyPRMstar
+    - SPARS
+    - SPARStwo
