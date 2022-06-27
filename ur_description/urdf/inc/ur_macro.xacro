@@ -347,7 +347,7 @@
       <!--<origin rpy="1.570796325 0 -1.570796325" xyz="${0.213-0.024/2} 0 0"/>-->
       <!-- Matching the convention -->
       <!--z offset closed gripper from base to fingertip 162.8mm + force torque sensor 35mm-->
-      <origin rpy="0 0 0" xyz="0 0 0.1978"/>
+      <origin rpy="0 0 0" xyz="0 0 0.035"/>
       <!--<limit effort="0" lower="0" upper="0" velocity="0"/>-->
     </joint>
 
